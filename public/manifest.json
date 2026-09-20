@@ -1,0 +1,24 @@
+{
+  "name": "CleanWard AI",
+  "short_name": "CleanWard",
+  "description": "AI-powered municipal civic technology platform connecting citizens with ward officers to report, respond, and resolve urban waste.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071311",
+  "theme_color": "#10B981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

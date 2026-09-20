@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Leaflet Customizations */
+.leaflet-popup-content-wrapper {
+  padding: 0 !important;
+  border-radius: 1rem !important;
+  overflow: hidden !important;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.15), 0 8px 10px -6px rgb(0 0 0 / 0.1) !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+}
+
+.dark .leaflet-popup-content-wrapper {
+  background: #0f172a !important;
+  border-color: #1e293b !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: inherit !important;
+}
+
+.leaflet-popup-tip {
+  display: none !important;
+}
+
+.cleanward-custom-pin {
+  background: transparent !important;
+  border: none !important;
+}
+
+.cleanward-draggable-pin {
+  background: transparent !important;
+  border: none !important;
+}
+
+.cleanward-user-pin {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Animations */
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

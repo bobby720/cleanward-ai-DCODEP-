@@ -1,0 +1,6 @@
+{
+  "name": "CleanWard AI",
+  "description": "AI-powered municipal civic technology platform connecting citizens with ward officers to report, respond, and resolve urban waste with real-time mapping and computer vision intelligence.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
